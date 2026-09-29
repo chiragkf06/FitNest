@@ -1,0 +1,49 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="360dp"
+    android:height="200dp"
+    android:viewportWidth="360"
+    android:viewportHeight="200">
+    <!-- Gym Background Wall -->
+    <path
+        android:fillColor="#1E293B"
+        android:pathData="M0,0h360v200h-360z"/>
+    <!-- Floor Gradient -->
+    <path
+        android:fillColor="#0F172A"
+        android:pathData="M0,150h360v50h-360z"/>
+    <!-- Weight Bench -->
+    <path
+        android:fillColor="#334155"
+        android:pathData="M80,120h200v14h-200z M110,134h12v40h-12z M238,134h12v40h-12z M100,174h32v6h-32z M228,174h32v6h-32z"/>
+    <!-- Bench Rack uprights -->
+    <path
+        android:fillColor="#475569"
+        android:pathData="M95,80h10v80h-10z M255,80h10v80h-10z"/>
+    <!-- Barbell Bar -->
+    <path
+        android:fillColor="#94A3B8"
+        android:pathData="M50,75h260v8h-260z"/>
+    <!-- Weight Plates Left -->
+    <path
+        android:fillColor="#0E633C"
+        android:pathData="M60,45h12v68h-12z M74,52h8v54h-8z"/>
+    <!-- Weight Plates Right -->
+    <path
+        android:fillColor="#0E633C"
+        android:pathData="M288,45h12v68h-12z M278,52h8v54h-8z"/>
+    <!-- Lifter Torso & Arms -->
+    <path
+        android:fillColor="#E2E8F0"
+        android:pathData="M140,112h80v12h-80z"/>
+    <path
+        android:fillColor="#3B82F6"
+        android:pathData="M155,108h50v14h-50z"/>
+    <!-- Arms pushing bar -->
+    <path
+        android:fillColor="#CBD5E1"
+        android:pathData="M135,80h14v35h-14z M211,80h14v35h-14z"/>
+    <!-- Head -->
+    <path
+        android:fillColor="#F1F5F9"
+        android:pathData="M124,114a8,8 0 1,0 16,0a8,8 0 1,0 -16,0"/>
+</vector>

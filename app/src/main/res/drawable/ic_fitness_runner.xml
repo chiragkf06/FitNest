@@ -1,0 +1,35 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="200dp"
+    android:viewportWidth="200"
+    android:viewportHeight="200">
+    <!-- Outer light circle background -->
+    <path
+        android:fillColor="#EAF6EE"
+        android:pathData="M100,100m-85,0a85,85 0,1,1 170,0a85,85 0,1,1 -170,0"/>
+    <!-- Subtle glow ring -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#86EFAC"
+        android:strokeWidth="3"
+        android:pathData="M100,100m-70,0a70,70 0,1,1 140,0a70,70 0,1,1 -140,0"/>
+    <!-- Runner Head -->
+    <path
+        android:fillColor="#0E633C"
+        android:pathData="M118,65a12,12 0 1,0 24,0a12,12 0 1,0 -24,0"/>
+    <!-- Runner Torso & Motion Body -->
+    <path
+        android:fillColor="#16A34A"
+        android:pathData="M105,82 L132,75 C136,74 140,78 138,82 L128,108 L142,128 C145,132 142,138 137,138 L122,138 L114,118 L98,135 L90,165 C89,170 83,172 79,169 L78,168 C74,165 74,159 77,155 L88,126 L104,98 L92,92 L75,102 C70,105 64,103 62,98 L61,96 C58,91 61,85 66,82 L95,68 C100,66 106,68 109,73 Z"/>
+    <!-- Running Front Leg -->
+    <path
+        android:fillColor="#0E633C"
+        android:pathData="M128,108 L155,118 C160,120 163,126 161,131 L150,155 C147,160 141,162 136,159 L135,158 C130,155 129,149 132,144 L140,128 L118,118 Z"/>
+    <!-- Speed line beneath -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#22C55E"
+        android:strokeWidth="4"
+        android:strokeLineCap="round"
+        android:pathData="M45,178 L125,178 M135,178 L165,178"/>
+</vector>

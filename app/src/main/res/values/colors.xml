@@ -2,4 +2,49 @@
 <resources>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+    
+    <!-- FitNest Brand Colors -->
+    <color name="primary">#0E633C</color>
+    <color name="primary_dark">#084026</color>
+    <color name="primary_light">#EAF6EE</color>
+    <color name="primary_accent">#16A34A</color>
+    <color name="primary_bright">#22C55E</color>
+    <color name="primary_glow">#34D399</color>
+    
+    <!-- Backgrounds & Surfaces -->
+    <color name="bg_light">#F8FAF8</color>
+    <color name="surface_card">#FFFFFF</color>
+    <color name="surface_card_alt">#F1F6F2</color>
+    <color name="stroke_subtle">#E2E8F0</color>
+    <color name="stroke_green">#86EFAC</color>
+    
+    <!-- Text Colors -->
+    <color name="text_main">#0F172A</color>
+    <color name="text_secondary">#64748B</color>
+    <color name="text_muted">#94A3B8</color>
+    <color name="text_white">#FFFFFF</color>
+    <color name="text_green">#0E633C</color>
+    
+    <!-- Accents -->
+    <color name="gold">#F59E0B</color>
+    <color name="gold_light">#FEF3C7</color>
+    <color name="silver">#94A3B8</color>
+    <color name="silver_light">#F1F5F9</color>
+    <color name="bronze">#D97706</color>
+    <color name="bronze_light">#FFEDD5</color>
+    
+    <!-- Macros & Badges -->
+    <color name="protein_color">#3B82F6</color>
+    <color name="carbs_color">#F59E0B</color>
+    <color name="fat_color">#EC4899</color>
+    <color name="calories_color">#10B981</color>
+    
+    <color name="danger_red">#EF4444</color>
+    <color name="danger_bg">#FEE2E2</color>
+    
+    <!-- Overlay & Camera -->
+    <color name="overlay_dark">#99000000</color>
+    <color name="overlay_card">#1A1E24</color>
+    <color name="nav_inactive">#94A3B8</color>
+    <color name="nav_active">#0E633C</color>
 </resources>
