@@ -29,18 +29,23 @@
                 android:textSize="22sp"
                 android:textStyle="bold" />
 
-            <ImageView
-                android:id="@+id/btnRefreshWorkouts"
+            <FrameLayout
+                android:id="@+id/btnNotifications"
                 android:layout_width="38dp"
                 android:layout_height="38dp"
                 android:layout_alignParentEnd="true"
                 android:layout_centerVertical="true"
                 android:background="@drawable/bg_pill_gray"
                 android:clickable="true"
-                android:focusable="true"
-                android:padding="8dp"
-                android:src="@drawable/ic_refresh"
-                app:tint="@color/primary" />
+                android:focusable="true">
+
+                <ImageView
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/ic_notifications"
+                    app:tint="@color/primary" />
+            </FrameLayout>
         </RelativeLayout>
 
         <!-- Segmented Category Tabs [ Gym | Home | My Plan ] -->

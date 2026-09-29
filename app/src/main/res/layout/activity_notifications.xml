@@ -38,20 +38,6 @@
             android:textSize="20sp"
             android:textStyle="bold" />
 
-        <FrameLayout
-            android:layout_width="38dp"
-            android:layout_height="38dp"
-            android:layout_alignParentEnd="true"
-            android:layout_centerVertical="true"
-            android:background="@drawable/bg_pill_gray">
-
-            <ImageView
-                android:layout_width="20dp"
-                android:layout_height="20dp"
-                android:layout_gravity="center"
-                android:src="@drawable/ic_notifications"
-                app:tint="@color/primary" />
-        </FrameLayout>
     </RelativeLayout>
 
     <androidx.core.widget.NestedScrollView

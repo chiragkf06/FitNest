@@ -25,6 +25,11 @@
             </intent-filter>
         </activity>
 
+        <!-- Login Page -->
+        <activity
+            android:name=".ui.activities.LoginActivity"
+            android:exported="false" />
+
         <!-- Main Home & Bottom Nav Activity -->
         <activity
             android:name=".MainActivity"

@@ -24,7 +24,7 @@
                 android:layout_height="wrap_content"
                 android:layout_alignParentStart="true"
                 android:layout_centerVertical="true"
-                android:text="Fit Nest"
+                android:text="FitNest"
                 android:textColor="@color/primary"
                 android:textSize="22sp"
                 android:textStyle="bold" />

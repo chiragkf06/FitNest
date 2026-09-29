@@ -1,6 +1,5 @@
 package com.example.fitnest.ui.activities
 
-import android.content.Intent
 import android.os.Bundle
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
@@ -24,15 +23,6 @@ class ExerciseDetailActivity : AppCompatActivity() {
         }
 
         binding.btnBack.setOnClickListener { finish() }
-
-        binding.btnShare.setOnClickListener {
-            val shareIntent = Intent(Intent.ACTION_SEND).apply {
-                type = "text/plain"
-                putExtra(Intent.EXTRA_SUBJECT, "Barbell Bench Press Workout")
-                putExtra(Intent.EXTRA_TEXT, "Crushed my Barbell Bench Press workout (4 sets, 8-12 reps) on FitNest!")
-            }
-            startActivity(Intent.createChooser(shareIntent, "Share Workout"))
-        }
 
         binding.btnMarkCompleted.setOnClickListener {
             isCompleted = !isCompleted
